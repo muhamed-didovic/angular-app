@@ -1,0 +1,174 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+
+/*.gridster * {
+    margin:0;
+    padding:0;
+}*/
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #444;
+    margin: 30px 40px;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+/*/
+/* gridster
+/*/
+
+.gridster ul {
+    margin: 0;
+    padding: 0;
+}
+
+.gridster li {
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.gridster {
+    margin: 0 auto;
+    opacity: .8;
+    -webkit-transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -o-transition: opacity .6s;
+    -ms-transition: opacity .6s;
+    transition: opacity .6s;
+}
+.gridster .gs-w {
+    background: #fafafa;
+    box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 3px 3px 6px 0px;
+    cursor: pointer;
+}
+.gridster .player {
+    background: #BBB;
+}
+.gridster .preview-holder {
+    border: none!important;
+    background: red!important;
+}
+body {
+    padding: 0 10px;
+}
+.page-header {
+    margin-top: 20px;
+}
+ul {
+    list-style: none;
+}
+.box {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.box-header {
+    background-color: #eee;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+    cursor: move;
+    height: 50px;
+}
+.box-content {
+    position: relative;
+    height: 87%;
+}
+.box-content p{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-43%);
+    -webkit-transform: translate(-50%,-43%);
+    position: absolute;
+}
+.box-header-btns {
+    margin-top: 15px;
+    cursor: pointer;
+}
+form {
+    margin-bottom: 0;
+}
+.table {
+    width: 94%;
+    margin-bottom: 20px;
+    padding: 3%;
+    margin-top: 24%;
+}
+.table td{
+    border:1px solid black;
+}
+table td.OK{
+    background-color: green;
+}
+table td.Error{
+    background-color: red;
+}
+table td.Warning {
+     background-color: #ffff00;
+ }
+table td.Warning.Error {
+    background-color: blue;
+}
+table td.Warning.OK {
+    background-color: orangered;
+}
+table tr>td:first-child{
+    border:0;
+}
+.ac-legend td {
+
+    font-size: 14px;
+}
+.ac-legend table{
+    max-width: 33% !important;
+}
+.chart {
+    /*width: 500px;*/
+    height: 500px;
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+}
+.dropdown-menu {
+    min-width: 65px;
+}
+/*.tooltip.top{
+    margin-top:30px;
+}
+*/
